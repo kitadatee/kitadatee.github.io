@@ -493,3 +493,10 @@ input:hover::placeholder{
   }
 }
 
+@media screen and (max-width:450px) {
+  #faceExpression{
+    width: 6em;
+    height: 6em;
+  }
+}
+
