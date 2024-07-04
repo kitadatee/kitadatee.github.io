@@ -368,8 +368,8 @@ input:hover::placeholder{
   background: aliceblue;
   font-family: Lilita One, sans-serif;
   color: #e25d35;
-  font-size: 1.3em;
-  text-decoration:underline;
+  font-size: medium;
+  text-decoration: underline;
   margin-left: 50%;
   width:max-content;
   transform: translateX(-50%);
