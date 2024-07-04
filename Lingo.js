@@ -261,8 +261,8 @@ function gameStart() {
             waiting = true;
             sound.pause();
           }
-          wrongSound.currentTime = 0;
           wrongSound.pause();
+          wrongSound.currentTime = 0;
           correctSound.currentTime = 0;
           correctSound.play();
         }
