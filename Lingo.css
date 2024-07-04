@@ -498,5 +498,9 @@ input:hover::placeholder{
     width: 6em;
     height: 6em;
   }
+  #closeMessage{
+    right: 3%;
+    top: 6%;
+  }
 }
 
