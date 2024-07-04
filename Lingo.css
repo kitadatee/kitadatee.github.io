@@ -340,8 +340,8 @@ input:hover::placeholder{
 }
 
 #screenMessage {
-  width: 30%;
-  height: 30%;
+  width: 35%;
+  height: 35%;
   background: rgb(231, 160, 85);
   position: absolute;
   left: 50%;
