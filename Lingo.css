@@ -351,6 +351,7 @@ input:hover::placeholder{
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 0.6s;
 }
 
 #Message{
