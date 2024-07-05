@@ -156,6 +156,7 @@ function loadWord(oldword, word) {
 function nextWord() {
   displayMsg("Guess the word");
   guessCorrect = false;
+  document.getElementById('guess').readOnly = false;
   document.getElementById('screenMessage').style.visibility = "hidden";
   document.getElementById('shh').style.visibility = "hidden";
   loadWord(keyWord[valueRow - 1].toUpperCase(), keyWord[++valueRow - 1].toUpperCase());
@@ -252,6 +253,7 @@ function gameStart() {
         input.value = input.value.substr(0, input.value.length - 1);
       if ((keyWord[valueRow - 1].toUpperCase() == input.value.toUpperCase())){
         document.getElementById('shh').style.visibility = "hidden";
+        document.getElementById('guess').readOnly = true;
         displayMsg("Hooray! That's correct!");
         for (var idx = 0; idx < keyWord[valueRow - 1].length; idx++) {
           changeClass(document.getElementById(rowIndicate + (guessTime + 1)).children.item(idx), "default", "correct");
