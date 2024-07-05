@@ -260,7 +260,6 @@ document.getElementById('closeShh').addEventListener('click', function(){
 
 function gameStart() {
   input.addEventListener('keypress', function(char) {
-    input.value = input.value.toUpperCase();
     if (char.key === 'Enter') {
       if (input.value.length > 0 && input.value[input.value.length - 1] == " ")
         input.value = input.value.substr(0, input.value.length - 1);
