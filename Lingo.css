@@ -172,6 +172,7 @@ input:hover::placeholder{
   font-family: Lilita One, sans-serif;
   font-weight: 700;
   margin-right: 10px;
+  text-transform: uppercase;
 }
 
 .SFXButton{
